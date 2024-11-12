@@ -1,0 +1,90 @@
+[
+  {
+    "id": "PROD1",
+    "name": "Canvas",
+    "category": "Art Supplies",
+    "description": "15x15cm Canvas",
+    "price": 99.99,
+    "imageUrl": "/images/canvas.jpg"
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Color Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils Charcoal",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 39.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 69.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 59.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  },
+  {
+    "id": "PROD2",
+    "name": "Pencils",
+    "category": "Art Supplies",
+    "description": "Graphite pencil",
+    "price": 89.99,
+    "imageUrl": ""
+  }
+]
