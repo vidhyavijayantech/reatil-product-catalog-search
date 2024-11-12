@@ -30,13 +30,12 @@ _API Endpoints_
     Endpoint: POST /api/add-product
     Description: Add a new product
     Request body:
-      `{
-      "name": "Apple MacBook Pro",
-      "category": "Electronics",
-      "description": "Apple's flagship laptop",
-      "price": 2399.99,
-      "imageUrl": "https://example.com/macbookpro.jpg"
-      }`
+      `{ "name": "Canvas",
+         "category": "Art Supplies",
+         "description": "15x15cm Canvas",
+         "price": 99.99,
+         "imageUrl": "/images/canvas.jpg"
+       }`
 2. Fetch all products
     1. Endpoint: GET /catalog/products?page=1&size=10
     2. Description: Fetch all products with pagination
