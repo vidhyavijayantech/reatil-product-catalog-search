@@ -70,10 +70,6 @@ Features
 3. Display search results dynamically as the user types (consider throttling requests).
 4. Display the product details when click on any listed product
 
-Prerequisites
-1. Java 17 or later
-2. Maven 3.6 or later
-
 Setup Instructions
 
 1. Clone the Repository 
@@ -84,5 +80,5 @@ Setup Instructions
 3. Run the application
     1.` npm run dev`
 4. Test the application
-    1. npm test
+    1. `npx vitest`
   

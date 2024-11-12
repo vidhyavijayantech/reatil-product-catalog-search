@@ -20,4 +20,4 @@ Setup Instructions
 3. Run the application
     1.` npm run dev`
 4. Test the application
-    1. npx vitest
+    1. `npx vitest`
