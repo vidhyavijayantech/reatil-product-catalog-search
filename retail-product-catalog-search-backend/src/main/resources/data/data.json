@@ -1,6 +1,6 @@
 [
   {
-    "id": "PROD1",
+    "id": "",
     "name": "Canvas",
     "category": "Art Supplies",
     "description": "15x15cm Canvas",
@@ -8,83 +8,107 @@
     "imageUrl": "/images/canvas.jpg"
   },
   {
-    "id": "PROD2",
+    "id": "",
+    "name": "Canvas",
+    "category": "Art Supplies",
+    "description": "15x15cm Canvas white",
+    "price": 99.99,
+    "imageUrl": "/images/canvas.jpg"
+  },
+  {
+    "id": "",
     "name": "Pencils",
     "category": "Art Supplies",
     "description": "Graphite pencil",
     "price": 89.99,
-    "imageUrl": ""
+    "imageUrl": "/images/pencils.jpg"
   },
   {
-    "id": "PROD2",
+    "id": "",
     "name": "Color Pencils",
     "category": "Art Supplies",
     "description": "Graphite pencil",
     "price": 89.99,
-    "imageUrl": ""
+    "imageUrl": "/images/pencils.jpg"
   },
   {
-    "id": "PROD2",
-    "name": "Pencils Charcoal",
+    "id": "",
+    "name": "Charcoal Pencils",
     "category": "Art Supplies",
-    "description": "Graphite pencil",
+    "description": "Charcoal pencil",
     "price": 89.99,
-    "imageUrl": ""
+    "imageUrl": "/images/pencils.jpg"
   },
   {
-    "id": "PROD2",
-    "name": "Pencils",
-    "category": "Art Supplies",
-    "description": "Graphite pencil",
-    "price": 89.99,
-    "imageUrl": ""
-  },
-  {
-    "id": "PROD2",
-    "name": "Pencils",
-    "category": "Art Supplies",
-    "description": "Graphite pencil",
-    "price": 39.99,
-    "imageUrl": ""
-  },
-  {
-    "id": "PROD2",
-    "name": "Pencils",
-    "category": "Art Supplies",
-    "description": "Graphite pencil",
-    "price": 69.99,
-    "imageUrl": ""
-  },
-  {
-    "id": "PROD2",
+    "id": "",
     "name": "Pencils",
     "category": "Art Supplies",
     "description": "Graphite pencil",
     "price": 59.99,
-    "imageUrl": ""
+    "imageUrl": "/images/pencils.jpg"
   },
   {
-    "id": "PROD2",
+    "id": "",
+    "name": "Brushes",
+    "category": "Art Supplies",
+    "description": "Painting brush",
+    "price": 39.99,
+    "imageUrl": "/images/brushes.jpg"
+  },
+  {
+    "id": "",
+    "name": "Round brush",
+    "category": "Art Supplies",
+    "description": "painting brush",
+    "price": 69.99,
+    "imageUrl": "/images/brushes.jpg"
+  },
+  {
+    "id": "",
+    "name": "Pen",
+    "category": "Art Supplies",
+    "description": "Ink pen",
+    "price": 59.99,
+    "imageUrl": "/images/pens.jpg"
+  },
+  {
+    "id": "",
+    "name": "Pen",
+    "category": "Art Supplies",
+    "description": "Gel pen",
+    "price": 89.99,
+    "imageUrl": "/images/pens.jpg"
+  },
+  {
+    "id": "",
     "name": "Pencils",
     "category": "Art Supplies",
     "description": "Graphite pencil",
-    "price": 89.99,
-    "imageUrl": ""
+    "price": 49.99,
+    "imageUrl": "/images/pencils.jpg"
   },
   {
-    "id": "PROD2",
+    "id": "",
     "name": "Pencils",
     "category": "Art Supplies",
-    "description": "Graphite pencil",
+    "description": "White pencil",
     "price": 89.99,
-    "imageUrl": ""
+    "imageUrl": "/images/canvas.jpg"
   },
   {
-    "id": "PROD2",
-    "name": "Pencils",
+    "id": "",
+    "name": "Oil paints",
     "category": "Art Supplies",
-    "description": "Graphite pencil",
-    "price": 89.99,
-    "imageUrl": ""
+    "description": "Oil based paints",
+    "price": 899.99,
+    "imageUrl": "/images/paints.jpg"
+  },
+  {
+    "id": "",
+    "name": "Acrylic paints",
+    "category": "Art Supplies",
+    "description": "Oil based paints",
+    "price": 899.99,
+    "imageUrl": "/images/paints.jpg"
   }
 ]

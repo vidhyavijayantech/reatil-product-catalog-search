@@ -32,7 +32,7 @@ public class ProductControllerTest {
 
     @Test
     void testAddProduct() throws Exception {
-        Product product = new Product("PROD1","Canvas", "Art Supplies", "15x15cm canvas board", 99.99, "https://image.com/canvas.jpg");
+        Product product = new Product("","Canvas", "Art Supplies", "15x15cm canvas board", 99.99, "https://image.com/canvas.jpg");
 
         // Mocking service layer behavior for adding a product
         given(productService.addProduct(any(Product.class))).willReturn(product);
@@ -46,8 +46,8 @@ public class ProductControllerTest {
 
     @Test
     void testGetAllProducts() throws Exception {
-        Product product1 = new Product("PROD1","Canvas", "Art Supplies", "15x15cm canvas board", 99.99, "https://image.com/canvas.jpg");
-        Product product2 = new Product("PROD2","Pencils", "Art Supplies", "Graphite pencils", 89.99, "https://image.com/pencil.jpg");
+        Product product1 = new Product("","Canvas", "Art Supplies", "15x15cm canvas board", 99.99, "https://image.com/canvas.jpg");
+        Product product2 = new Product("","Pencils", "Art Supplies", "Graphite pencils", 89.99, "https://image.com/pencil.jpg");
 
         // Mocking service layer response
         given(productService.getProducts(1, 10)).willReturn(new PageImpl<>(List.of(product1, product2), PageRequest.of(1, 10), 50));
@@ -60,7 +60,7 @@ public class ProductControllerTest {
 
     @Test
     void testGetProductById() throws Exception {
-        Product product = new Product("PROD1","Canvas", "Art Supplies", "15x15cm canvas board", 99.99, "https://image.com/canvas.jpg");
+        Product product = new Product("","Canvas", "Art Supplies", "15x15cm canvas board", 99.99, "https://image.com/canvas.jpg");
 
         // Mocking service layer response
         given(productService.getProductById("PROD1")).willReturn(product);

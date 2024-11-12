@@ -2,7 +2,6 @@ package com.retail.catalog.product_search.service;
 
 import com.retail.catalog.product_search.model.Product;
 import com.retail.catalog.product_search.util.ProductSearchUtil;
-import jakarta.annotation.PostConstruct;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
