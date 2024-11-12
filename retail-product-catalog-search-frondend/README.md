@@ -1,50 +1,27 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# retail-product-search-frontend
+Retail product search frontend application
+This is a React application bootstrapped with Vite and written in TypeScript. Vite is a fast frontend build tool that focuses on speed and performance, making development smoother and faster
 
-Currently, two official plugins are available:
+Features
+1. List all products with pagination
+2. Search barwhere users can type in product names.
+3. Display search results dynamically as the user types (consider throttling requests).
+4. Display the product details when click on any listed product
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Prerequisites
+1. Java 17 or later
+2. Maven 3.6 or later
 
-## Expanding the ESLint configuration
+Setup Instructions
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+1. Clone the Repository 
+    1. `git clone https://github.com/vidhyavijayantech/reatil-product-catalog-search.git`
+    2. `cd retail-product-catalog-search-frontend`
+2. Install dependencies
+    1. `npm install`
+3. Run the application
+    1.` npm run dev`
+4. Test the application
+    1. npm test
